@@ -106,7 +106,7 @@ public class Ws3o2{
             //...................
         }
 
-        //student std1 = new student ("Duy Duc", "HE172114", dob ,"HaiDuong","SE", 8.0);
+        //student std1 = new student ("Duy Duc", "HE172114", dob ,"HaiDuong","SE1731", 8.0);
         //std1.printAllAttributes();
     }
 }

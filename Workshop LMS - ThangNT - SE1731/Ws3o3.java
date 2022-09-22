@@ -19,9 +19,7 @@ class Rectangle {
         System.out.println("Perimeter of rectangle is: " + caculatePerimeter(width, height));
     }
     public void input() {
-        //System.out.println("enter width");
         width = sc.nextDouble();
-        // System.out.println("enter height");
         height = sc.nextDouble();
     }
 }

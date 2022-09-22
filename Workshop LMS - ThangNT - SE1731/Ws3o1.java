@@ -50,7 +50,7 @@ class Author{
     
     @Override
     public String toString() {
-        return name;
+        return "author{name=" + name + "}";
     }
 }
 

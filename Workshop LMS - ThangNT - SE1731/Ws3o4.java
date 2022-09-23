@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Write java program to manage fractions with addition, subtraction, multiplication and division.
-//@DuyDuc94
+
 class Fraction {
     private int numer;  //Numerator: tu so
     private int denom;  //Denominator: mau so
@@ -26,6 +26,8 @@ class Fraction {
 
     //GCD Function: Greatest Common Divisor: Uoc chung lon nhat
     int findGCD(int a, int b) {
+        a = Math.abs(a);
+        b = Math.abs(b);
         int temp;
         while (b != 0) {
             temp = b;
@@ -109,9 +111,9 @@ public class Ws3o4{
         Fraction a = new Fraction(sc.nextInt(), sc.nextInt());
         Fraction b = new Fraction(sc.nextInt(), sc.nextInt());
         
-        System.out.println("Addition result: " + a.add(b));
-        System.out.println("Subtraion result: " + a.subtract(b));
-        System.out.println("Multiplication result: " + a.multiply(b));
-        System.out.println("Division result: " + a.divide(b));
+        System.out.println(a.add(b));
+        System.out.println(a.subtract(b));
+        System.out.println(a.multiply(b));
+        System.out.println(a.divide(b));
     }
 }

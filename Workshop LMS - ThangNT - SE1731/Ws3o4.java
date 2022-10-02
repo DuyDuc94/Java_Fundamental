@@ -111,9 +111,11 @@ public class Ws3o4{
         Fraction a = new Fraction(sc.nextInt(), sc.nextInt());
         Fraction b = new Fraction(sc.nextInt(), sc.nextInt());
         
-        System.out.println(a.add(b));
-        System.out.println(a.subtract(b));
-        System.out.println(a.multiply(b));
-        System.out.println(a.divide(b));
+        System.out.println();
+        System.out.println("Addition result: " + a.add(b));
+        System.out.println("Subtraction result: " + a.subtract(b));
+        System.out.println("Multiplication result: " + a.multiply(b));
+        System.out.println("Division result: " + a.divide(b));
+        System.out.println();
     }
 }
